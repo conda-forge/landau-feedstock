@@ -30,6 +30,7 @@ requirements:
     - shapely >1,<=2.0.7
     - seaborn >=0.12,<=0.13.2
     - scikit-learn >=1.2,<2
+    - pyiron_snippets >=1,<2
 
 test:
   imports:
