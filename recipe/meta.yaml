@@ -1,5 +1,5 @@
 {% set name = "landau" %}
-{% set version = "1.5.2" %}
+{% set version = "1.6.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/landau-{{ version }}.tar.gz
-  sha256: d97e7e0feb6a4168bf252ca21e2dc9c18e6d0351c1e24a58141839ebf59db60e
+  sha256: af9bfc3656f96615de7399d0a46d567ada2d545fa65631829d030f0bfac00b22
 
 build:
   noarch: python
