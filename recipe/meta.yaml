@@ -1,5 +1,5 @@
 {% set name = "landau" %}
-{% set version = "1.8.8" %}
+{% set version = "1.9.0" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/landau-{{ version }}.tar.gz
-  sha256: 2058e6a6757d55a1bbf215d8ab39432e54f1786048727900802bbccc50d0a181
+  sha256: 43ca236fcabd9c9b1b069db54bf03b027c23ae2fdc25e08f99f7914205329efe
 
 build:
   noarch: python
@@ -27,7 +27,7 @@ requirements:
     - numpy >1,<3
     - pandas >=2.2,<3
     - scipy >=1.11.0,<2
-    - shapely >1,<=2.0.7
+    - shapely >=2.1,<=2.1.2
     - seaborn >=0.12,<=0.13.2
     - scikit-learn >=1.2,<2
     - pyiron_snippets >=1,<2
