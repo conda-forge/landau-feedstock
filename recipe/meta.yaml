@@ -1,5 +1,5 @@
 {% set name = "landau" %}
-{% set version = "1.19.0" %}
+{% set version = "1.19.1" %}
 {% set python_min = "3.11" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/landau-{{ version }}.tar.gz
-  sha256: bbb1cab2ac507c0e9b917d2f4359abe04a7b5cee83dcaff6d8e47e1ac66b35db
+  sha256: 20c295d2419ffb74e46e60c5dc6b071b959db1bbc177cd72cb4df691719a87ba
 
 build:
   noarch: python
